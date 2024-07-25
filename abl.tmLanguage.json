@@ -2025,6 +2025,36 @@
         }
       ]
     },
+    "define-dataset": {
+      "begin": "(?i)\\b(dataset)\\s+([a-zA-Z][a-zA-Z0-9\\#\\$\\-\\_\\%\\&]*)\\b",
+      "beginCaptures": {
+        "1": {
+          "name": "keyword.other.abl"
+        },
+        "2": {
+          "name": "storage.data.dataset.abl"
+        }
+      },
+      "end": "\\b(?=\\.)\\b",
+      "comment": "The end capture does a lookahead on . so that the 'define' capture can end ",
+      "patterns": [
+        {
+          "include": "#keywords"
+        },
+        {
+          "include": "#preprocessors"
+        },
+        {
+          "include": "#db-dot-table"
+        },
+        {
+          "include": "#comment"
+        },
+        {
+          "include": "#string"
+        }
+      ]
+    },
     "define-event": {
       "match": "(?i)\\b(event)\\s+([a-zA-Z][a-zA-Z0-9\\#\\$\\-\\_\\%\\&]*)\\b",
       "captures": {
