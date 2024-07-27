@@ -2025,7 +2025,7 @@
         }
       ]
     },
-    "define-dataset": {
+    "Y-define-dataset": {
       "begin": "(?i)\\b(dataset)\\s+([a-zA-Z][a-zA-Z0-9\\#\\$\\-\\_\\%\\&]*)\\b",
       "beginCaptures": {
         "1": {
