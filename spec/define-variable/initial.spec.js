@@ -124,3 +124,56 @@ describe('', () => {
   ];
   shared.itShouldMatchExpectedScopes(statement, expectedTokens);
 })
+
+describe('', () => {
+  let statement = `DEFINE VARIABLE daBirthdays AS date extent 4 INIT [
+    1/2/2011,
+    3/19/2010,
+    7/9/2012,
+    5/25/2012] NO-UNDO.`;
+  let expectedTokens = [
+    [
+      { "startIndex": 0, "endIndex": 6, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'DEFINE'
+      { "startIndex": 6, "endIndex": 7, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 7, "endIndex": 15, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'VARIABLE'
+      { "startIndex": 15, "endIndex": 16, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 16, "endIndex": 27, "scopes": ["source.abl", "meta.define.abl", "variable.other.abl"] },  // 'daBirthdays'
+      { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 28, "endIndex": 30, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'AS'
+      { "startIndex": 30, "endIndex": 31, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 31, "endIndex": 35, "scopes": ["source.abl", "meta.define.abl", "storage.type.abl"] },  // 'date'
+      { "startIndex": 35, "endIndex": 36, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 36, "endIndex": 42, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'extent'
+      { "startIndex": 42, "endIndex": 43, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 43, "endIndex": 44, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.source.abl"] },  // '4'
+      { "startIndex": 44, "endIndex": 45, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 45, "endIndex": 49, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'INIT'
+      { "startIndex": 49, "endIndex": 50, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 50, "endIndex": 51, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "punctuation.definition.bracket.square.begin.abl"] }  // '['
+    ],
+    [
+      { "startIndex": 0, "endIndex": 4, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl"] },  // '    '
+      { "startIndex": 4, "endIndex": 12, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "constant.other.abl"] },  // '1/2/2011'
+      { "startIndex": 12, "endIndex": 13, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "punctuation.separator.comma.abl"] }  // ','
+    ],
+    [
+      { "startIndex": 0, "endIndex": 4, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl"] },  // '    '
+      { "startIndex": 4, "endIndex": 13, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "constant.other.abl"] },  // '3/19/2010'
+      { "startIndex": 13, "endIndex": 14, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "punctuation.separator.comma.abl"] }  // ','
+    ],
+    [
+      { "startIndex": 0, "endIndex": 4, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl"] },  // '    '
+      { "startIndex": 4, "endIndex": 12, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "constant.other.abl"] },  // '7/9/2012'
+      { "startIndex": 12, "endIndex": 13, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "punctuation.separator.comma.abl"] }  // ','
+    ],
+    [
+      { "startIndex": 0, "endIndex": 4, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl"] },  // '    '
+      { "startIndex": 4, "endIndex": 13, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "constant.other.abl"] },  // '5/25/2012'
+      { "startIndex": 13, "endIndex": 14, "scopes": ["source.abl", "meta.define.abl", "meta.array.literal.abl", "punctuation.definition.bracket.square.end.abl"] },  // ']'
+      { "startIndex": 14, "endIndex": 15, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+      { "startIndex": 15, "endIndex": 22, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'NO-UNDO'
+      { "startIndex": 22, "endIndex": 23, "scopes": ["source.abl", "meta.define.abl", "punctuation.terminator.abl"] }  // '.'
+    ]
+  ];
+  shared.itShouldMatchExpectedScopes(statement, expectedTokens);
+})
