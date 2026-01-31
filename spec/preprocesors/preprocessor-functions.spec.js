@@ -19,7 +19,7 @@ describe('', () => {
       { "startIndex": 26, "endIndex": 27, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 27, "endIndex": 29, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // 'gt'
       { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 30, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '0'
+      { "startIndex": 30, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.abl"] },  // '0'
       { "startIndex": 31, "endIndex": 32, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 32, "endIndex": 33, "scopes": ["source.abl", "punctuation.definition.preprocessor.abl"] },  // '&'
       { "startIndex": 33, "endIndex": 37, "scopes": ["source.abl", "keyword.control.directive.conditional.abl"] }  // 'then'

@@ -762,7 +762,7 @@ describe('', () => {
       { "startIndex": 44, "endIndex": 45, "scopes": ["source.abl", "meta.define.method.abl"] },  // ' '
       { "startIndex": 45, "endIndex": 51, "scopes": ["source.abl", "meta.define.method.abl", "keyword.other.abl"] },  // 'extent'
       { "startIndex": 51, "endIndex": 52, "scopes": ["source.abl", "meta.define.method.abl"] },  // ' '
-      { "startIndex": 52, "endIndex": 54, "scopes": ["source.abl", "meta.define.method.abl", "constant.numeric.source.abl"] },  // '99'
+      { "startIndex": 52, "endIndex": 54, "scopes": ["source.abl", "meta.define.method.abl", "constant.numeric.abl"] },  // '99'
       { "startIndex": 54, "endIndex": 55, "scopes": ["source.abl", "meta.define.method.abl", "punctuation.separator.comma.abl"] }  // ','
     ],
     [

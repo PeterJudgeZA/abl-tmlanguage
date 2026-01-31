@@ -12,7 +12,7 @@ end.`;
       { "startIndex": 2, "endIndex": 3, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
       { "startIndex": 3, "endIndex": 13, "scopes": ["source.abl", "meta.block.abl", "keyword.other.abl"] },  // 'stop-after'
       { "startIndex": 13, "endIndex": 14, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
-      { "startIndex": 14, "endIndex": 16, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.source.abl"] },  // '12'
+      { "startIndex": 14, "endIndex": 16, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.abl"] },  // '12'
       { "startIndex": 16, "endIndex": 17, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // ':'
     ],
     [

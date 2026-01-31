@@ -21,7 +21,7 @@ while i < 10:`;
       { "startIndex": 7, "endIndex": 8, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 8, "endIndex": 9, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '<'
       { "startIndex": 9, "endIndex": 10, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 10, "endIndex": 12, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '10'
+      { "startIndex": 10, "endIndex": 12, "scopes": ["source.abl", "constant.numeric.abl"] },  // '10'
       { "startIndex": 12, "endIndex": 13, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // ':'
     ]
   ];
@@ -108,4 +108,3 @@ describe('', () => {
   ];
   shared.itShouldMatchExpectedScopes(statement, expectedTokens);
 })
-

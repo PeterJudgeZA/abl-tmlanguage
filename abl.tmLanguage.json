@@ -2029,7 +2029,7 @@
           "name": "keyword.other.abl"
         },
         "3": {
-          "name": "constant.numeric.source.abl"
+          "name": "constant.numeric.abl"
         }
       }
     },
@@ -2547,13 +2547,13 @@
           "name": "keyword.other.abl"
         },
         "6": {
-          "name": "constant.numeric.source.abl"
+          "name": "constant.numeric.abl"
         },
         "8": {
           "name": "keyword.other.abl"
         },
         "12": {
-          "name": "constant.numeric.source.abl"
+          "name": "constant.numeric.abl"
         }
       }
     },
@@ -3749,7 +3749,7 @@
           "name": "keyword.other.abl"
         },
         "2": {
-          "name": "constant.numeric.source.abl"
+          "name": "constant.numeric.abl"
         }
       }
     },
@@ -3760,7 +3760,7 @@
           "name": "keyword.other.abl"
         },
         "2": {
-          "name": "constant.numeric.source.abl"
+          "name": "constant.numeric.abl"
         }
       }
     },
@@ -3771,7 +3771,7 @@
           "name": "keyword.other.abl"
         },
         "2": {
-          "name": "constant.numeric.source.abl"
+          "name": "constant.numeric.abl"
         }
       }
     },
@@ -4105,7 +4105,7 @@
     },
     "numeric": {
       "match": "(?<![a-zA-Z0-9_\\-#$%-])(0[xX]\\h+)|([+\\-]?\\.?(0|[1-9][0-9]*)(\\.[0-9]+)?([eE][+\\-]?[0-9]+)?)",
-      "name": "constant.numeric.source.abl"
+      "name": "constant.numeric.abl"
     },
     "abl-system-handles": {
       "match": "(?i)\\b(active-window|audit-control|audit-policy|clipboard|codebase-locator|color-table|compiler|current-window|debugger|default-window|dslog-manager|(error-stat(?:us|u)?)|(file-info(?:rmation|rmatio|rmati|rmat|rma|rm|r)?)|font-table|(last-even(?:t)?)|log-manager|profiler|(rcode-info(?:rmation|rmatio|rmati|rmat|rma|rm|r)?)|security-policy|self|session|source-procedure|super|target-procedure|this-object|this-procedure|web-context)\\b(?![#$\\-_%&])",

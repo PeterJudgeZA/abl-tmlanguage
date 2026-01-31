@@ -28,7 +28,7 @@ no-error.`;
       { "startIndex": 17, "endIndex": 18, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 18, "endIndex": 19, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '+'
       { "startIndex": 19, "endIndex": 20, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 20, "endIndex": 21, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '4'
+      { "startIndex": 20, "endIndex": 21, "scopes": ["source.abl", "constant.numeric.abl"] },  // '4'
       { "startIndex": 21, "endIndex": 24, "scopes": ["source.abl"] }  // ' )'
     ],
     [
@@ -74,7 +74,7 @@ describe('', () => {
     { "startIndex": 37, "endIndex": 38, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 38, "endIndex": 39, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '+'
     { "startIndex": 39, "endIndex": 40, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 40, "endIndex": 41, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '4'
+    { "startIndex": 40, "endIndex": 41, "scopes": ["source.abl", "constant.numeric.abl"] },  // '4'
     { "startIndex": 41, "endIndex": 44, "scopes": ["source.abl"] },  // ' ) '
     { "startIndex": 44, "endIndex": 47, "scopes": ["source.abl", "keyword.other.abl"] },  // 'for'
     { "startIndex": 47, "endIndex": 48, "scopes": ["source.abl"] },  // ' '

@@ -18,11 +18,11 @@ END.`;
       { "startIndex": 5, "endIndex": 6, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
       { "startIndex": 6, "endIndex": 7, "scopes": ["source.abl", "meta.block.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 7, "endIndex": 8, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
-      { "startIndex": 8, "endIndex": 9, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.source.abl"] },  // '1'
+      { "startIndex": 8, "endIndex": 9, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.abl"] },  // '1'
       { "startIndex": 9, "endIndex": 10, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
       { "startIndex": 10, "endIndex": 12, "scopes": ["source.abl", "meta.block.abl", "keyword.other.abl"] },  // 'TO'
       { "startIndex": 12, "endIndex": 13, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
-      { "startIndex": 13, "endIndex": 14, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.source.abl"] },  // '3'
+      { "startIndex": 13, "endIndex": 14, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.abl"] },  // '3'
       { "startIndex": 14, "endIndex": 15, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // ':'
     ],
     [
@@ -58,7 +58,7 @@ END.`;
       { "startIndex": 11, "endIndex": 12, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
       { "startIndex": 12, "endIndex": 14, "scopes": ["source.abl", "meta.block.abl", "keyword.operator.source.abl"] },  // '<='
       { "startIndex": 14, "endIndex": 15, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
-      { "startIndex": 15, "endIndex": 17, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.source.abl"] },  // '10'
+      { "startIndex": 15, "endIndex": 17, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.abl"] },  // '10'
       { "startIndex": 17, "endIndex": 18, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // ':'
     ],
     [
@@ -71,7 +71,7 @@ END.`;
       { "startIndex": 11, "endIndex": 12, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 12, "endIndex": 13, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '+'
       { "startIndex": 13, "endIndex": 14, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 14, "endIndex": 15, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '1'
+      { "startIndex": 14, "endIndex": 15, "scopes": ["source.abl", "constant.numeric.abl"] },  // '1'
       { "startIndex": 15, "endIndex": 16, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
     ],
     [

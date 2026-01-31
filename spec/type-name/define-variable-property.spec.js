@@ -111,7 +111,7 @@ describe('', () => {
     { "startIndex": 40, "endIndex": 42, "scopes": ["source.abl", "meta.define.abl"] },  // '  '
     { "startIndex": 42, "endIndex": 48, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'extent'
     { "startIndex": 48, "endIndex": 49, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
-    { "startIndex": 49, "endIndex": 51, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.source.abl"] },  // '14'
+    { "startIndex": 49, "endIndex": 51, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.abl"] },  // '14'
     { "startIndex": 51, "endIndex": 52, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
     { "startIndex": 52, "endIndex": 59, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'no-undo'
     { "startIndex": 59, "endIndex": 60, "scopes": ["source.abl", "meta.define.abl", "punctuation.terminator.abl"] }  // '.'

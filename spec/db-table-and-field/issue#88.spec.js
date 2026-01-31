@@ -65,7 +65,7 @@ describe('', () => {
       { "startIndex": 31, "endIndex": 32, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 32, "endIndex": 33, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 33, "endIndex": 34, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 34, "endIndex": 37, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '123'
+      { "startIndex": 34, "endIndex": 37, "scopes": ["source.abl", "constant.numeric.abl"] }  // '123'
     ],
     [
       { "startIndex": 0, "endIndex": 18, "scopes": ["source.abl"] },  // '                  '

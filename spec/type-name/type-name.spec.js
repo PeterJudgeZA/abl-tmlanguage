@@ -866,7 +866,7 @@ describe('', () => {
       { "startIndex": 64, "endIndex": 65, "scopes": ["source.abl", "meta.function.arguments.abl", "meta.preprocessor.abl", "punctuation.section.abl"] },  // '}'
       { "startIndex": 65, "endIndex": 66, "scopes": ["source.abl", "meta.function.arguments.abl", "punctuation.separator.comma.abl"] },  // ','
       { "startIndex": 66, "endIndex": 67, "scopes": ["source.abl", "meta.function.arguments.abl"] },  // ' '
-      { "startIndex": 67, "endIndex": 68, "scopes": ["source.abl", "meta.function.arguments.abl", "constant.numeric.source.abl"] },  // '0'
+      { "startIndex": 67, "endIndex": 68, "scopes": ["source.abl", "meta.function.arguments.abl", "constant.numeric.abl"] },  // '0'
       { "startIndex": 68, "endIndex": 69, "scopes": ["source.abl", "meta.function.arguments.abl", "punctuation.separator.comma.abl"] },  // ','
       { "startIndex": 69, "endIndex": 71, "scopes": ["source.abl", "meta.function.arguments.abl"] },  // '  '
       { "startIndex": 71, "endIndex": 95, "scopes": ["source.abl", "meta.function.arguments.abl", "variable.other.abl"] },  // 'ClassNameNotEntertedEnum'

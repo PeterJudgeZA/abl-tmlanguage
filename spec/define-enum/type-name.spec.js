@@ -68,7 +68,7 @@ end enum.`;
       { "startIndex": 19, "endIndex": 20, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
       { "startIndex": 20, "endIndex": 21, "scopes": ["source.abl", "meta.define.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 21, "endIndex": 22, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
-      { "startIndex": 22, "endIndex": 23, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.source.abl"] }  // '1'
+      { "startIndex": 22, "endIndex": 23, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.abl"] }  // '1'
     ],
     [
       { "startIndex": 0, "endIndex": 14, "scopes": ["source.abl", "meta.define.abl"] },  // '              '
@@ -80,7 +80,7 @@ end enum.`;
       { "startIndex": 18, "endIndex": 19, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
       { "startIndex": 19, "endIndex": 20, "scopes": ["source.abl", "meta.define.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 20, "endIndex": 21, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
-      { "startIndex": 21, "endIndex": 25, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.source.abl"] },  // '0xa2'
+      { "startIndex": 21, "endIndex": 25, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.abl"] },  // '0xa2'
       { "startIndex": 25, "endIndex": 26, "scopes": ["source.abl", "meta.define.abl", "punctuation.terminator.abl"] }  // '.'
     ],
     [

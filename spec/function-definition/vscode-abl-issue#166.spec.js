@@ -57,7 +57,7 @@ end.`;
       { "startIndex": 71, "endIndex": 72, "scopes": ["source.abl", "meta.define.function.abl", "meta.function.parameters"] },  // ' '
       { "startIndex": 72, "endIndex": 78, "scopes": ["source.abl", "meta.define.function.abl", "meta.function.parameters", "keyword.other.abl"] },  // 'extent'
       { "startIndex": 78, "endIndex": 79, "scopes": ["source.abl", "meta.define.function.abl", "meta.function.parameters"] },  // ' '
-      { "startIndex": 79, "endIndex": 80, "scopes": ["source.abl", "meta.define.function.abl", "meta.function.parameters", "constant.numeric.source.abl"] },  // '4'
+      { "startIndex": 79, "endIndex": 80, "scopes": ["source.abl", "meta.define.function.abl", "meta.function.parameters", "constant.numeric.abl"] },  // '4'
       { "startIndex": 80, "endIndex": 81, "scopes": ["source.abl", "meta.define.function.abl", "meta.function.parameters"] },  // ' '
       { "startIndex": 81, "endIndex": 82, "scopes": ["source.abl", "meta.define.function.abl", "meta.function.parameters", "meta.brace.round.js"] },  // ')'
       { "startIndex": 82, "endIndex": 84, "scopes": ["source.abl", "meta.define.function.abl"] },  // '  '

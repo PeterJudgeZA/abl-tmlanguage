@@ -11,7 +11,7 @@ describe('', () => {
     { "startIndex": 16, "endIndex": 17, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 17, "endIndex": 18, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
     { "startIndex": 18, "endIndex": 19, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 19, "endIndex": 21, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '27'
+    { "startIndex": 19, "endIndex": 21, "scopes": ["source.abl", "constant.numeric.abl"] },  // '27'
     { "startIndex": 21, "endIndex": 22, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
   ];
   shared.itShouldMatchExpectedScopes(statement, expectedTokens);
@@ -29,7 +29,7 @@ describe('', () => {
     { "startIndex": 22, "endIndex": 23, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 23, "endIndex": 24, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
     { "startIndex": 24, "endIndex": 25, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 25, "endIndex": 27, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '27'
+    { "startIndex": 25, "endIndex": 27, "scopes": ["source.abl", "constant.numeric.abl"] },  // '27'
     { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
   ];
   shared.itShouldMatchExpectedScopes(statement, expectedTokens);
@@ -48,9 +48,8 @@ describe('', () => {
     { "startIndex": 32, "endIndex": 33, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 33, "endIndex": 34, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
     { "startIndex": 34, "endIndex": 35, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 35, "endIndex": 37, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '27'
+    { "startIndex": 35, "endIndex": 37, "scopes": ["source.abl", "constant.numeric.abl"] },  // '27'
     { "startIndex": 37, "endIndex": 38, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
   ];
   shared.itShouldMatchExpectedScopes(statement, expectedTokens);
 })
-

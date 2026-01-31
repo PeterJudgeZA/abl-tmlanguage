@@ -73,7 +73,7 @@ The ABL-specific scopes produced by the ABL grammar listed in the table below. T
 |comment.preprocessor.analyze-suspend.abl         | `&analyze-suspend`, `&analyze-resume` |
 |constant.character.escape.abl                    |  `~` and the next char |
 |constant.language.abl                            | `today`, `now`, `true`, `false`, `yes`, `no`, `?` (unknown value) |
-|constant.numeric.source.abl                      | 0x00-0xFF, 0-9, scientific notation |
+|constant.numeric.abl                             | 0x00-0xFF, 0-9, scientific notation |
 |constant.other.abl                               | Date constants in assignments and `format` clauses: mm/dd/ccyy or mm/dd/yy |
 |entity.name.function.abl                         | Method call, property call, method name, property name, handle attributes, handle methods, event names |
 |entity.name.function.preprocessor.abl            | Preprocessor names, including built-ins like `opsys` and `process-architecture` |

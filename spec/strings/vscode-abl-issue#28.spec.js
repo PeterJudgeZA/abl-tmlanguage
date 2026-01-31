@@ -24,7 +24,7 @@ describe('', () => {
     { "startIndex": 25, "endIndex": 26, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 26, "endIndex": 33, "scopes": ["source.abl", "keyword.other.abl"] },  // 'message'
     { "startIndex": 33, "endIndex": 34, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 34, "endIndex": 35, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '1'
+    { "startIndex": 34, "endIndex": 35, "scopes": ["source.abl", "constant.numeric.abl"] },  // '1'
     { "startIndex": 35, "endIndex": 36, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
   ];
   shared.itShouldMatchExpectedScopes(statement, expectedTokens);

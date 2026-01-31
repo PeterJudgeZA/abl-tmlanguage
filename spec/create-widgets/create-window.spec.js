@@ -75,7 +75,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 14, "endIndex": 27, "scopes": ["source.abl"] },  // '             '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '1'
+      { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl", "constant.numeric.abl"] }  // '1'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -83,7 +83,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 11, "endIndex": 27, "scopes": ["source.abl"] },  // '                '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '1'
+      { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl", "constant.numeric.abl"] }  // '1'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -91,7 +91,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 14, "endIndex": 27, "scopes": ["source.abl"] },  // '             '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '16'
+      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.abl"] }  // '16'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -99,7 +99,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 13, "endIndex": 27, "scopes": ["source.abl"] },  // '              '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '90'
+      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.abl"] }  // '90'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -107,7 +107,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 18, "endIndex": 27, "scopes": ["source.abl"] },  // '         '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '16'
+      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.abl"] }  // '16'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -115,7 +115,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 17, "endIndex": 27, "scopes": ["source.abl"] },  // '          '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '90'
+      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.abl"] }  // '90'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -123,7 +123,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 22, "endIndex": 27, "scopes": ["source.abl"] },  // '     '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '16'
+      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.abl"] }  // '16'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -131,7 +131,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 21, "endIndex": 27, "scopes": ["source.abl"] },  // '      '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '90'
+      { "startIndex": 29, "endIndex": 31, "scopes": ["source.abl", "constant.numeric.abl"] }  // '90'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '
@@ -187,7 +187,7 @@ ELSE {&WINDOW-NAME} = CURRENT-WINDOW.`;
       { "startIndex": 12, "endIndex": 27, "scopes": ["source.abl"] },  // '               '
       { "startIndex": 27, "endIndex": 28, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '1'
+      { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl", "constant.numeric.abl"] }  // '1'
     ],
     [
       { "startIndex": 0, "endIndex": 8, "scopes": ["source.abl"] },  // '        '

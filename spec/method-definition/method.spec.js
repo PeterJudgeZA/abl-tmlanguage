@@ -113,7 +113,7 @@ end method.`;
       { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl", "meta.define.method.abl"] },  // ' '
       { "startIndex": 29, "endIndex": 35, "scopes": ["source.abl", "meta.define.method.abl", "keyword.other.abl"] },  // 'extent'
       { "startIndex": 35, "endIndex": 36, "scopes": ["source.abl", "meta.define.method.abl"] },  // ' '
-      { "startIndex": 36, "endIndex": 38, "scopes": ["source.abl", "meta.define.method.abl", "constant.numeric.source.abl"] },  // '12'
+      { "startIndex": 36, "endIndex": 38, "scopes": ["source.abl", "meta.define.method.abl", "constant.numeric.abl"] },  // '12'
       { "startIndex": 38, "endIndex": 39, "scopes": ["source.abl", "meta.define.method.abl"] },  // ' '
       { "startIndex": 39, "endIndex": 46, "scopes": ["source.abl", "meta.define.method.abl", "entity.name.function.abl"] },  // 'MethodQ'
       { "startIndex": 46, "endIndex": 47, "scopes": ["source.abl", "meta.define.method.abl", "meta.brace.round.js"] },  // '('

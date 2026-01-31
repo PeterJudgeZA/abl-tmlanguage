@@ -71,7 +71,7 @@ describe('', () => {
     { "startIndex": 31, "endIndex": 32, "scopes": ["source.abl", "meta.function.arguments.abl", "constant.language.abl"] },  // '?'
     { "startIndex": 32, "endIndex": 33, "scopes": ["source.abl", "meta.function.arguments.abl", "punctuation.separator.comma.abl"] },  // ','
     { "startIndex": 33, "endIndex": 34, "scopes": ["source.abl", "meta.function.arguments.abl"] },  // ' '
-    { "startIndex": 34, "endIndex": 37, "scopes": ["source.abl", "meta.function.arguments.abl", "constant.numeric.source.abl"] },  // '-12'
+    { "startIndex": 34, "endIndex": 37, "scopes": ["source.abl", "meta.function.arguments.abl", "constant.numeric.abl"] },  // '-12'
     { "startIndex": 37, "endIndex": 38, "scopes": ["source.abl", "meta.brace.round.js"] },  // ')'
     { "startIndex": 38, "endIndex": 39, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
 

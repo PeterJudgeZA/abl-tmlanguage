@@ -185,7 +185,7 @@ describe('', () => {
       { "startIndex": 54, "endIndex": 55, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 55, "endIndex": 56, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 56, "endIndex": 57, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 57, "endIndex": 58, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '0'
+      { "startIndex": 57, "endIndex": 58, "scopes": ["source.abl", "constant.numeric.abl"] }  // '0'
     ],
     [
       { "startIndex": 0, "endIndex": 35, "scopes": ["source.abl"] },  // '                                   '

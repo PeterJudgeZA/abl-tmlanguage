@@ -83,7 +83,7 @@ assign
       { "startIndex": 10, "endIndex": 11, "scopes": ["source.abl"] },  // ' '
       { "startIndex": 11, "endIndex": 12, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
       { "startIndex": 12, "endIndex": 13, "scopes": ["source.abl"] },  // ' '
-      { "startIndex": 13, "endIndex": 18, "scopes": ["source.abl", "constant.numeric.source.abl"] }  // '12345'
+      { "startIndex": 13, "endIndex": 18, "scopes": ["source.abl", "constant.numeric.abl"] }  // '12345'
     ],
     [
       { "startIndex": 0, "endIndex": 2, "scopes": ["source.abl"] },  // '  '

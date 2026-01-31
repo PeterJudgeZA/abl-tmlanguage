@@ -108,7 +108,7 @@ end.`;
       { "startIndex": 25, "endIndex": 26, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
       { "startIndex": 26, "endIndex": 36, "scopes": ["source.abl", "meta.block.abl", "keyword.other.abl"] },  // 'stop-after'
       { "startIndex": 36, "endIndex": 37, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
-      { "startIndex": 37, "endIndex": 39, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.source.abl"] },  // '10'
+      { "startIndex": 37, "endIndex": 39, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.abl"] },  // '10'
       { "startIndex": 39, "endIndex": 40, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // ':'
     ],
     [
@@ -133,7 +133,7 @@ end.`;
       { "startIndex": 14, "endIndex": 15, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
       { "startIndex": 15, "endIndex": 16, "scopes": ["source.abl", "meta.block.abl", "keyword.operator.source.abl"] },  // '<'
       { "startIndex": 16, "endIndex": 17, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
-      { "startIndex": 17, "endIndex": 19, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.source.abl"] },  // '10'
+      { "startIndex": 17, "endIndex": 19, "scopes": ["source.abl", "meta.block.abl", "constant.numeric.abl"] },  // '10'
       { "startIndex": 19, "endIndex": 20, "scopes": ["source.abl", "meta.block.abl"] },  // ' '
       { "startIndex": 20, "endIndex": 22, "scopes": ["source.abl", "meta.block.abl", "comment.block.source.abl"] },  // '/*'
       { "startIndex": 22, "endIndex": 33, "scopes": ["source.abl", "meta.block.abl", "comment.block.source.abl", "comment"] }  // ' only this'

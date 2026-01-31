@@ -376,7 +376,7 @@ describe('', () => {
       { "startIndex": 42, "endIndex": 43, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
       { "startIndex": 43, "endIndex": 49, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'extent'
       { "startIndex": 49, "endIndex": 50, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
-      { "startIndex": 50, "endIndex": 52, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.source.abl"] },  // '12'
+      { "startIndex": 50, "endIndex": 52, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.abl"] },  // '12'
       { "startIndex": 52, "endIndex": 53, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
       { "startIndex": 53, "endIndex": 55, "scopes": ["source.abl", "meta.define.abl", "comment.block.source.abl"] },  // '/*'
       { "startIndex": 55, "endIndex": 61, "scopes": ["source.abl", "meta.define.abl", "comment.block.source.abl", "comment"] },  // ' long '
@@ -398,7 +398,7 @@ describe('', () => {
       { "startIndex": 31, "endIndex": 32, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
       { "startIndex": 32, "endIndex": 38, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'extent'
       { "startIndex": 38, "endIndex": 39, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
-      { "startIndex": 39, "endIndex": 40, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.source.abl"] }  // '3'
+      { "startIndex": 39, "endIndex": 40, "scopes": ["source.abl", "meta.define.abl", "constant.numeric.abl"] }  // '3'
     ],
     [
       { "startIndex": 0, "endIndex": 4, "scopes": ["source.abl", "meta.define.abl"] },  // '    '
