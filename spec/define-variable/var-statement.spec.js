@@ -407,6 +407,30 @@ describe('', () => {
 })
 
 describe('', () => {
+  let statement = `var date pieDt = 3/22, piIsh = 12/1/2032.`;
+  let expectedTokens = [
+    { "startIndex": 0, "endIndex": 3, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'var'
+    { "startIndex": 3, "endIndex": 4, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+    { "startIndex": 4, "endIndex": 8, "scopes": ["source.abl", "meta.define.abl", "storage.type.abl"] },  // 'date'
+    { "startIndex": 8, "endIndex": 9, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
+    { "startIndex": 9, "endIndex": 14, "scopes": ["source.abl", "meta.define.abl", "variable.other.abl"] },  // 'pieDt'
+    { "startIndex": 14, "endIndex": 15, "scopes": ["source.abl"] },  // ' '
+    { "startIndex": 15, "endIndex": 16, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
+    { "startIndex": 16, "endIndex": 17, "scopes": ["source.abl"] },  // ' '
+    { "startIndex": 17, "endIndex": 21, "scopes": ["source.abl", "constant.other.abl"] },  // '3/22'
+    { "startIndex": 21, "endIndex": 22, "scopes": ["source.abl", "punctuation.separator.comma.abl"] },  // ','
+    { "startIndex": 22, "endIndex": 23, "scopes": ["source.abl"] },  // ' '
+    { "startIndex": 23, "endIndex": 28, "scopes": ["source.abl", "variable.other.abl"] },  // 'piIsh'
+    { "startIndex": 28, "endIndex": 29, "scopes": ["source.abl"] },  // ' '
+    { "startIndex": 29, "endIndex": 30, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
+    { "startIndex": 30, "endIndex": 31, "scopes": ["source.abl"] },  // ' '
+    { "startIndex": 31, "endIndex": 40, "scopes": ["source.abl", "constant.other.abl"] },  // '12/1/2032'
+    { "startIndex": 40, "endIndex": 41, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
+  ]
+  shared.itShouldMatchExpectedScopes(statement, expectedTokens);
+})
+
+describe('', () => {
   let statement = `var  datetime[] dtz1 = [now, today, ?, today, now].`
   let expectedTokens = [
     { "startIndex": 0, "endIndex": 3, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'var'
