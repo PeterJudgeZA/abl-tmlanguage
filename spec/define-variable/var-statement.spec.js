@@ -379,7 +379,6 @@ describe('', () => {
 
 describe('', () => {
   let statement = `var decimal pie = 22 / 3, piIsh = 3.1415927.`;
-  let statement = `var decimal pie = 22 / 3, piIsh = 3.1415927.`;
   let expectedTokens = [
     { "startIndex": 0, "endIndex": 3, "scopes": ["source.abl", "meta.define.abl", "keyword.other.abl"] },  // 'var'
     { "startIndex": 3, "endIndex": 4, "scopes": ["source.abl", "meta.define.abl"] },  // ' '
@@ -389,18 +388,18 @@ describe('', () => {
     { "startIndex": 15, "endIndex": 16, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 16, "endIndex": 17, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
     { "startIndex": 17, "endIndex": 18, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 18, "endIndex": 20, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '22'
+    { "startIndex": 18, "endIndex": 20, "scopes": ["source.abl", "constant.numeric.abl"] },  // '22'
     { "startIndex": 20, "endIndex": 21, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 21, "endIndex": 22, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '/'
     { "startIndex": 22, "endIndex": 23, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 23, "endIndex": 24, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '3'
+    { "startIndex": 23, "endIndex": 24, "scopes": ["source.abl", "constant.numeric.abl"] },  // '3'
     { "startIndex": 24, "endIndex": 25, "scopes": ["source.abl", "punctuation.separator.comma.abl"] },  // ','
     { "startIndex": 25, "endIndex": 26, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 26, "endIndex": 31, "scopes": ["source.abl", "variable.other.abl"] },  // 'piIsh'
     { "startIndex": 31, "endIndex": 32, "scopes": ["source.abl"] },  // ' '
     { "startIndex": 32, "endIndex": 33, "scopes": ["source.abl", "keyword.operator.source.abl"] },  // '='
     { "startIndex": 33, "endIndex": 34, "scopes": ["source.abl"] },  // ' '
-    { "startIndex": 34, "endIndex": 43, "scopes": ["source.abl", "constant.numeric.source.abl"] },  // '3.1415927'
+    { "startIndex": 34, "endIndex": 43, "scopes": ["source.abl", "constant.numeric.abl"] },  // '3.1415927'
     { "startIndex": 43, "endIndex": 44, "scopes": ["source.abl", "punctuation.terminator.abl"] }  // '.'
   ]
   shared.itShouldMatchExpectedScopes(statement, expectedTokens);
